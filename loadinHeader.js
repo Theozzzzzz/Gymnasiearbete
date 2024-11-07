@@ -1,6 +1,6 @@
 document.getElementsByTagName('header')[0].innerHTML = `
 <a href="index.html">
-<img src="images/NormalLogo_Skalbagge_fixad_höjd.png" alt="Circus Normals logo" id="header-image">
+<img src="https://github.com/Theozzzzzz/Gymnasiearbete/blob/d3604a751e4880a8845172fcf7847b62c30b1d9d/images/NormalLogo_Skalbagge_fixad_h%C3%B6jd.png" alt="Circus Normals logo" id="header-image">
 </a>
 <nav id="header-nav">
     <ul id="header-ul">
