@@ -1,7 +1,14 @@
 document.getElementsByTagName('header')[0].innerHTML = `
-<img src="images/NormalLogo_Skalbagge325.png" alt="Circus Normals logo">
+<a href="index.html">
+<img src="images/NormalLogo_Skalbagge_fixad_höjd.png" alt="Circus Normals logo" id="header-image">
+</a>
 <nav id="header-nav">
     <ul id="header-ul">
+        <li>
+            <a href="index.html">
+                <div class="navbar-button">Hem</div>
+            </a>
+        </li>
         <li>
             <a href="index.html"> 
                 <div class="navbar-button">Kurser</div>
@@ -25,10 +32,10 @@ var style = document.createElement('style');
 style.innerHTML = `
 
 * {
-    --color-primary: #FBF8F1;
-    --color-secondary: #F7ECDE;
-    --color-tertiary: #E9DAC1;
-    --color-quaternary: #54BAB9;
+    --color-primary: #F7F9F9;
+    --color-secondary: #386150;
+    --color-tertiary: #386150;
+    --color-quaternary: #58B09C;
 }
 
 header {
@@ -36,9 +43,15 @@ header {
     justify-content: space-between;
     padding: 0;
     margin: 0;
-    background-color: var(--color-tertiary);
+    background-color: var(--color-quaternary);
     border-radius: 0 0 30px 0;
     height: 80px;
+}
+
+#header-image {
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -84,13 +97,16 @@ body {
     transition-property: background-color;
     transition-duration: 0.25s;
     background-color: var(--color-quaternary);
-    text-decoration: none;
     
     color: white;
 } 
 
 
+#header-ul > li > a {
+    text-decoration: none;
+}
+
 .navbar-button:hover {
-    background-color: lightblue;
+    background-color: var(--color-tertiary);
 }`
 document.head.appendChild(style);
