@@ -2,7 +2,7 @@
 //loads in the footers HTML
 document.getElementsByTagName('footer')[0].innerHTML = `
 <div class="footer-logo-container">
-    <img src="https://raw.githubusercontent.com/Theozzzzzz/Gymnasiearbete/e154ee801d98ea93e61112e0196bc59be271fe2c/images/NormalLogo_Skalbagge_fixad_hojd.png" alt="Circus Normals logo" id="footer-image">
+    <img src="https://raw.githubusercontent.com/Theozzzzzz/Gymnasiearbete/f67c7ba91a42b353e13b780c89d3be45f9b4f91e/images/NormalLogo_endast_Skalbagge.png" alt="Circus Normals logo" id="footer-image">
 </div>
 <p>copyright theozzz 2024</p>
 <div class="socials-container">
@@ -33,7 +33,7 @@ footer {
     margin: 0;
     background-color: var(--color-secondary);
     border-radius: 0 30px 0 0;
-    height: 80px;
+    height: 70px;
     bottom: 0;
 }
 
