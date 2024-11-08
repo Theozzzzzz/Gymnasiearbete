@@ -9,11 +9,20 @@ document.getElementsByTagName('header')[0].innerHTML = `
                 <div class="navbar-button">Hem</div>
             </a>
         </li>
-        <li>
-            <a href="index.html"> 
-                <div class="navbar-button">Kurser</div>
-            </a>
-        </li> 
+        <div class="dropdown">
+            <li>
+                    <a href="index.html"> 
+                        <div class="navbar-button dropbtn">Kurser</div>
+                    </a>
+            </li> 
+                <div class="dropdown-content">
+                    <a href="#">Minicirkus - Grön Grupper</a>
+                    <a href="#">Introduktion - Gula Grupper</a>
+                    <a href="#">Fortsättning - Blå Grupper</a>
+                    <a href="#">Avancerad - Lila Grupper</a>
+                    <a href="#">Föreställningsgruppen - Svart Grupp</a>
+                </div>
+        </div>
         <li>
             <a href="about.html">
                 <div class="navbar-button">Events</div>
@@ -97,7 +106,6 @@ body {
     transition-property: background-color;
     transition-duration: 0.25s;
     background-color: var(--color-quaternary);
-    
     color: white;
 } 
 
@@ -108,5 +116,37 @@ body {
 
 .navbar-button:hover {
     background-color: var(--color-tertiary);
-}`
+}
+
+.dropdown{
+    list-style-type: none;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 11%;
+}
+
+.dropbtn{
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+`
 document.head.appendChild(style);
