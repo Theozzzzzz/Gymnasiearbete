@@ -1,3 +1,38 @@
-main {
-    padding: 10px 15%;
+.startimg{
+    position: relative;
+    display: flex;
+    justify-content:right;
+    top: 5vh;
 }
+
+.parallax1 {
+    /* The image used */
+    background-image: url(https://i0.wp.com/cirkusnormal.nu/wordpress/wp-content/uploads/2024/04/Skarmavbild-2024-04-29-kl.-13.49.19-e1714391540704.png?fit=1334%2C826&ssl=1);
+    min-height: 600px;
+}
+.parallax2 {
+    background-image: url(https://i0.wp.com/cirkusnormal.nu/wordpress/wp-content/uploads/2011/09/event1.jpg);
+    min-height: 650px;
+}
+
+
+.parallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.colorPrimary{
+    background-color: #F7F9F9;
+}
+.colorSecondary{
+    background-color: #cee3a569;
+}
+.colorTertiary{
+    background-color: #386150;
+}
+.colorQuaternaryrimary{
+    background-color: #58B09C;
+}
+
