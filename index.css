@@ -1,3 +1,14 @@
+* {
+    --color-primary: #F7F9F9;
+    --color-secondary: #cee3a569;
+    --color-tertiary: #386150;
+    --color-quaternary: #58B09C;
+}
+
+html {
+    background-color: black;
+}
+
 .startimg{
     position: relative;
     display: flex;
@@ -7,7 +18,7 @@
 
 .parallax1 {
     /* The image used */
-    background-image: url(https://i0.wp.com/cirkusnormal.nu/wordpress/wp-content/uploads/2024/04/Skarmavbild-2024-04-29-kl.-13.49.19-e1714391540704.png?fit=1334%2C826&ssl=1);
+    background-image: url("/Gymnasiearbete/images/Skarmavbild-2024-04-29-kl.-13.49.19-e1714391540704 (1).webp");
     min-height: 600px;
 }
 .parallax2 {
@@ -36,3 +47,6 @@
     background-color: #58B09C;
 }
 
+article{
+    background-color: var(--color-secondary);
+}

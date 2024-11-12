@@ -40,21 +40,17 @@ document.getElementsByTagName('header')[0].innerHTML = `
 var style = document.createElement('style');
 style.innerHTML = `
 
-* {
-    --color-primary: #F7F9F9;
-    --color-secondary: #386150;
-    --color-tertiary: #386150;
-    --color-quaternary: #58B09C;
-}
 
 header {
     display: flex;
+    position: fixed;
     justify-content: space-between;
     padding: 0;
     margin: 0;
     background-color: var(--color-quaternary);
     border-radius: 0 0 30px 0;
     height: 80px;
+    width: 100%;
 }
 
 #header-image {
@@ -66,16 +62,19 @@ header {
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--color-primary);
+}
+
+html {
+    margin: 0;
+    padding: 0;
 }
 
 #header-ul {
-    display: flex inline;
-    right: 0px;
+    display: flex;
+    right: 0;
     flex-direction: row;
     padding: 0;
     margin: 0;
-    height: 100%;
     justify-content: flex-end;
     border-radius: 0 0 30px 0;
     background-color: inherit;
@@ -93,6 +92,9 @@ body {
     :last-child > a > .navbar-button {
         border-radius: 30px 0 30px 0;
         background-color: black;
+        margin: 0;
+        height: 101%;
+        box-shadow: 0 0 10px 0 #999999;
     }
 }
 
