@@ -51,6 +51,13 @@ article{
     background-size: cover;
 }
 
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto 10%;
+}
+
 
 article{
     background-color: var(--color-secondary);
@@ -61,3 +68,4 @@ article{
 article h1{
     font-size: 250%;
 }
+

@@ -7,13 +7,13 @@ document.getElementsByTagName('footer')[0].innerHTML = `
 <p>copyright theozzz 2024</p>
 <div class="socials-container">
     <p> föj oss på sociala medier: </p>
-    <a href="https://www.instagram.com/circusnormal/" class="footer-sociala-medier-link">
+    <a href="https://www.instagram.com/circusnormal/" target="_blank" class="footer-sociala-medier-link">
         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" class="footer-sociala-medier-logo" alt="instagram">
     </a>
-    <a href="https://www.facebook.com/circusnormal" class="footer-sociala-medier-link">
+    <a href="https://www.facebook.com/circusnormal" target="_blank" class="footer-sociala-medier-link">
         <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" class="footer-sociala-medier-logo" alt="facebook">
     </a>
-    <a href="https://www.youtube.com/circusnormal" class="footer-sociala-medier-link">
+    <a href="https://www.youtube.com/circusnormal" target="_blank" class="footer-sociala-medier-link">
         <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/YouTube_full-color_icon_%282024%29.svg" class="footer-sociala-medier-logo" alt="youtube">
     </a>
 </div>
@@ -35,6 +35,15 @@ footer {
     border-radius: 0 30px 0 0;
     height: 70px;
     bottom: 0;
+}
+
+.footer-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > img {
+    height: 70%;
+    }
 }
 
 .footer-text {
