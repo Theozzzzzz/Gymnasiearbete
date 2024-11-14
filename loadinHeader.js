@@ -1,17 +1,17 @@
 document.getElementsByTagName('header')[0].innerHTML = `
-<a href="index.html">
+<a href="/index.html">
 <img src="https://raw.githubusercontent.com/Theozzzzzz/Gymnasiearbete/e154ee801d98ea93e61112e0196bc59be271fe2c/images/NormalLogo_Skalbagge_fixad_hojd.png" alt="Circus Normals logo" id="header-image">
 </a>
 <nav id="header-nav">
     <ul id="header-ul">
         <li>
-            <a href="index.html">
+            <a href="/index.html">
                 <div class="navbar-button">Hem</div>
             </a>
         </li>
         <div class="dropdown">
             <li>
-                    <a href="index.html"> 
+                    <a href="/index.html"> 
                         <div class="navbar-button dropbtn">Kurser</div>
                     </a>
             </li> 
@@ -20,7 +20,7 @@ document.getElementsByTagName('header')[0].innerHTML = `
                     <a href="#">Introduktion - Gula Grupper</a>
                     <a href="#">Fortsättning - Blå Grupper</a>
                     <a href="#">Avancerad - Lila Grupper</a>
-                    <a href="#">Föreställningsgruppen - Svart Grupp</a>
+                    <a href="kurser/forestallningsgruppen.html">Föreställningsgruppen - Svart Grupp</a>
                 </div>
         </div>
         <li>
