@@ -5,6 +5,19 @@
     --color-quaternary: #58B09C;
 }
 
+.colorPrimary{
+    background-color: var(--color-primary);
+}
+.colorSecondary{
+    background-color: var(--color-secondary);
+}
+.colorTertiary{
+    background-color: var(--color-tertiary);
+}
+.colorQuaternaryrimary{
+    background-color: var(--color-quaternary);
+}
+
 html {
     background-color: black;
 }
@@ -34,19 +47,13 @@ html {
     background-size: cover;
 }
 
-.colorPrimary{
-    background-color: #F7F9F9;
-}
-.colorSecondary{
-    background-color: #cee3a569;
-}
-.colorTertiary{
-    background-color: #386150;
-}
-.colorQuaternaryrimary{
-    background-color: #58B09C;
-}
 
 article{
     background-color: var(--color-secondary);
+    height: fit-content;
+    padding: 40px;
+}
+
+article h1{
+    font-size: 250%;
 }
