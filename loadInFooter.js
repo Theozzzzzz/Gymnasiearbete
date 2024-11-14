@@ -31,7 +31,7 @@ footer {
     alaign-items: center;
     padding: 0;
     margin: 0;
-    background-color: var(--color-secondary);
+    background-color: var(--color-tertiary);
     border-radius: 0 30px 0 0;
     height: 70px;
     bottom: 0;
