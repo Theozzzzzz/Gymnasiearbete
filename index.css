@@ -22,6 +22,10 @@ html {
     background-color: black;
 }
 
+article{
+    color: whitesmoke;
+}
+
 .startimg{
     position: relative;
     display: flex;
