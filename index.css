@@ -35,7 +35,7 @@ article{
 
 .parallax1 {
     /* The image used */
-    background-image: url("/Gymnasiearbete/images/start-page-rope.png");
+    background-image: url("https://raw.githubusercontent.com/Theozzzzzz/Gymnasiearbete/5f0a5cb078eb1cd4daa8145c523db0532608ee46/images/start-page-rope.png");
     min-height: 600px;
 }
 .parallax2 {
