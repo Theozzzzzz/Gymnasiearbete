@@ -1,6 +1,6 @@
 * {
     --color-primary: #F7F9F9;
-    --color-secondary: #cee3a569;
+    --color-secondary: #707C5A;
     --color-tertiary: #386150;
     --color-quaternary: #58B09C;
 }
@@ -22,9 +22,6 @@ html {
     background-color: black;
 }
 
-article{
-    color: whitesmoke;
-}
 
 .startimg{
     position: relative;
@@ -36,7 +33,7 @@ article{
 .parallax1 {
     /* The image used */
     background-image: url("https://raw.githubusercontent.com/Theozzzzzz/Gymnasiearbete/5f0a5cb078eb1cd4daa8145c523db0532608ee46/images/start-page-rope.png");
-    min-height: 710px;
+    min-height: 600px;
 }
 .parallax2 {
     background-image: url(https://i0.wp.com/cirkusnormal.nu/wordpress/wp-content/uploads/2011/09/event1.jpg);
@@ -61,6 +58,7 @@ main{
 
 article{
     background-color: var(--color-secondary);
+    color: whitesmoke;
     height: fit-content;
     padding: 40px;
 }
