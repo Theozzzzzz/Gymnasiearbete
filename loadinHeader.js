@@ -45,6 +45,7 @@ header {
     display: flex;
     position: fixed;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 0;
     margin: 0;
     background-color: var(--color-quaternary);
