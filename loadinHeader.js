@@ -45,11 +45,12 @@ header {
     display: flex;
     position: fixed;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 0;
     margin: 0;
     background-color: var(--color-quaternary);
     border-radius: 0 0 30px 0;
-    height: 80px;
+    height: 60px;
     width: 100%;
     z-index: 4;
 }
@@ -103,7 +104,7 @@ html {
 .navbar-button {
     font-size: x-large;
     text-align: center;
-    line-height: 80px;
+    line-height: 60px;
     padding: 0 50px;
     height: 100%;
     transition-property: background-color;
