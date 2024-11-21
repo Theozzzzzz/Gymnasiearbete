@@ -30,7 +30,7 @@ document.getElementsByTagName('header')[0].innerHTML = `
         </li> 
         <li>
             <a href="contact.html">
-                <div class="navbar-button">Om Oss</div>
+                <div class="navbar-button colorheader">Om Oss</div>
             </a>
         </li> 
     </ul> 
@@ -51,6 +51,7 @@ header {
     border-radius: 0 0 30px 0;
     height: 80px;
     width: 100%;
+    z-index: 4;
 }
 
 #header-image {
@@ -108,8 +109,12 @@ html {
     transition-property: background-color;
     transition-duration: 0.25s;
     background-color: var(--color-quaternary);
-    color: white;
+    color: black;
 } 
+
+.colorheader{
+    color: white;
+}
 
 
 #header-ul > li > a {
