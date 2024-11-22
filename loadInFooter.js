@@ -13,7 +13,7 @@ document.getElementsByTagName('footer')[0].innerHTML = `
     <a href="https://www.facebook.com/circusnormal" target="_blank" class="footer-sociala-medier-link">
         <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" class="footer-sociala-medier-logo" alt="facebook">
     </a>
-    <a href="https://www.youtube.com/circusnormal" target="_blank" class="footer-sociala-medier-link">
+    <a href="https://www.youtube.com/cirkusnormal" target="_blank" class="footer-sociala-medier-link">
         <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/YouTube_full-color_icon_%282024%29.svg" class="footer-sociala-medier-logo" alt="youtube">
     </a>
 </div>
