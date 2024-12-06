@@ -16,11 +16,11 @@ document.getElementsByTagName('header')[0].innerHTML = `
                     </a>
             </li> 
                 <div class="dropdown-content">
-                    <a href="#">Minicirkus - Grön Grupper</a>
-                    <a href="#">Introduktion - Gula Grupper</a>
-                    <a href="#">Fortsättning - Blå Grupper</a>
-                    <a href="#">Avancerad - Lila Grupper</a>
-                    <a href="kurser/forestallningsgruppen.html">Föreställningsgruppen - Svart Grupp</a>
+                    <a href="/kurser/minicircus.html">Minicirkus - Grön Grupper</a>
+                    <a href="/kurser/introduktion.html">Introduktion - Gula Grupper</a>
+                    <a href="/kurser/fortsattning.html">Fortsättning - Blå Grupper</a>
+                    <a href="/kurser/avancerad.html">Avancerad - Lila Grupper</a>
+                    <a href="/kurser/forestallningsgruppen.html">Föreställningsgruppen - Svart Grupp</a>
                 </div>
         </div>
         <li>
