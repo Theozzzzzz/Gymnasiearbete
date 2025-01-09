@@ -122,7 +122,25 @@ aside {
     transform: scale3d(1.05, 1.05, 1.05);
     transition: transform 0.5s;
 }
+#pyramid-skeme{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center; 
+}
+#pyramid-bild{
+    border-radius: 7%;
+}
+.textlåda{
+    border-radius: 15px;
+    width: 90%;
+}
+#xtextlåda{
+    border-radius: 15px;
+    max-width: 90%;
+    min-width: 89.5%;
+    min-height: 100px;
 
+}
 
 #events-container {
     margin-top: 5%;

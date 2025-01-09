@@ -29,7 +29,7 @@ document.getElementsByTagName('header')[0].innerHTML = `
             </a>
         </li> 
         <li>
-            <a href="contact.html">
+            <a href="/contact.html">
                 <div class="navbar-button colorheader">Om Oss</div>
             </a>
         </li> 
