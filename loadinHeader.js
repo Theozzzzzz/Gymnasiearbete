@@ -24,7 +24,7 @@ document.getElementsByTagName('header')[0].innerHTML = `
                 </div>
         </div>
         <li>
-            <a href="about.html">
+            <a href="/events.html">
                 <div class="navbar-button">Events</div>
             </a>
         </li> 
