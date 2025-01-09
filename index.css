@@ -122,7 +122,14 @@ aside {
     transform: scale3d(1.05, 1.05, 1.05);
     transition: transform 0.5s;
 }
-
+#pyramid-skeme{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center; 
+}
+#pyramid-bild{
+    border-radius: 7%;
+}
 
 /* Media Queries for responsiveness */
 @media (max-width: 1200px) {
