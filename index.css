@@ -130,6 +130,17 @@ aside {
 #pyramid-bild{
     border-radius: 7%;
 }
+.textlåda{
+    border-radius: 15px;
+    width: 90%;
+}
+#xtextlåda{
+    border-radius: 15px;
+    max-width: 90%;
+    min-width: 89.5%;
+    min-height: 100px;
+
+}
 
 /* Media Queries for responsiveness */
 @media (max-width: 1200px) {
