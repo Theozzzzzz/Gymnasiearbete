@@ -132,12 +132,12 @@ aside {
 }
 .textlåda{
     border-radius: 15px;
-    width: 90%;
+    width: 50%;
 }
 #xtextlåda{
     border-radius: 15px;
-    max-width: 90%;
-    min-width: 89.5%;
+    max-width: 50%;
+    min-width: 49.9%;
     min-height: 100px;
 
 }
