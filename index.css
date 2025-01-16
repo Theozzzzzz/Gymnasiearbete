@@ -139,7 +139,10 @@ aside {
     max-width: 50%;
     min-width: 49.9%;
     min-height: 100px;
-
+}
+#skicka{
+    height: 50px;
+    border-radius: 15px;
 }
 
 #events-container {
