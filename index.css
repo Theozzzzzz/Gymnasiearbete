@@ -1,9 +1,15 @@
 * {
-    --color-primary: #F7F9F9;
-    --color-secondary: #707C5A;
-    --color-tertiary: #386150;
-    --color-quaternary: #BED7DC;
+    --color-primary: #FBF5DD;
+    --color-secondary: #A6CDC6;
+    --color-tertiary: #DDA853;
+    --color-quaternary: #16404D;
 }
+/* * {
+    --color-primary: #E5D9F2;
+    --color-secondary: #F5EFFF;
+    --color-tertiary: #CDC1FF;
+    --color-quaternary: #A594F9;
+} */
 
 .colorPrimary {
     background-color: var(--color-primary);
@@ -32,7 +38,7 @@ article{
     align-items: center;
     position: relative;
     top: 45vh;
-    color: white;
+    color: black;
     font-size: 40px;
     height: 20vh;
     width: 50vh;
@@ -69,7 +75,7 @@ main {
 
 article {
     background-color: var(--color-secondary);
-    color: whitesmoke;
+    color: black;
     height: fit-content;
     padding: 40px;
 }
@@ -112,7 +118,7 @@ aside {
 
 #hyperlink-to-activeungdom {
     font-size: 120%;
-    color: white;
+    color: black;
     text-decoration: none;
     width: 1px;
     margin: 10px;
