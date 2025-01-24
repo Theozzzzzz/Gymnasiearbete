@@ -1,15 +1,15 @@
-* {
+/* * {
     --color-primary: #FBF5DD;
     --color-secondary: #A6CDC6;
-    --color-tertiary: #DDA853;
+    --color-tertiary: #16404D;
     --color-quaternary: #16404D;
-}
-/* * {
+} */
+* {
     --color-primary: #E5D9F2;
     --color-secondary: #F5EFFF;
     --color-tertiary: #CDC1FF;
     --color-quaternary: #A594F9;
-} */
+}
 
 .colorPrimary {
     background-color: var(--color-primary);
