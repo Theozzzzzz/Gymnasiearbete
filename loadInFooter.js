@@ -1,6 +1,7 @@
 
 //loads in the footers HTML
 document.getElementsByTagName('footer')[0].innerHTML = `
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 <div class="footer-logo-container">
     <img src="https://raw.githubusercontent.com/Theozzzzzz/Gymnasiearbete/f67c7ba91a42b353e13b780c89d3be45f9b4f91e/images/NormalLogo_endast_Skalbagge.png" alt="Circus Normals logo" id="footer-image">
 </div>
