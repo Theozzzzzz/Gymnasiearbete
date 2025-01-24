@@ -11,18 +11,6 @@
     --color-quaternary: #A594F9;
 }
 
-.colorPrimary {
-    background-color: var(--color-primary);
-}
-.colorSecondary {
-    background-color: var(--color-secondary);
-}
-.colorTertiary {
-    background-color: var(--color-tertiary);
-}
-.colorQuaternary {
-    background-color: var(--color-quaternary);
-}
 
 html {
     background-color: black;
