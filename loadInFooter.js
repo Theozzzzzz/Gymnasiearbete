@@ -48,14 +48,10 @@ footer {
     bottom: 0;
 }
 
-p{
-    color:white;
-}
-
 .copyright{
     display:flex;
     align-items: flex-end;
-    color:white;
+    
 }
 .footer-logo-container {
     display: flex;
@@ -74,11 +70,11 @@ p{
     height: 100%;
     with: fit-content;
     > h1 {
-        color: white;
+        
         font-size: 25px;
     }
     > h2 {
-        color: white;
+        
         font-size: 20px;
     }
     > img {
@@ -93,7 +89,7 @@ p{
 }
 
 .footer-sociala-medier-logo {
-    color: whitesmoke;
+    
     padding-right: 20px;
     font-size: 40px;
     height: 100%;
@@ -116,7 +112,6 @@ p{
         }
         > p {
         font-size: 25px;
-        color: white;
         }
     } 
 }
