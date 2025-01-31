@@ -1,16 +1,9 @@
-/* * {
-    --color-primary: #FBF5DD;
-    --color-secondary: #A6CDC6;
-    --color-tertiary: #16404D;
-    --color-quaternary: #16404D;
-} */
 * {
     --color-primary: #635985;
     --color-secondary: #d5e9e2;
     --color-tertiary: #DAFFFB;
     --color-quaternary: #DAFFFB;
 }
-
 
 html {
     background-color: black;
