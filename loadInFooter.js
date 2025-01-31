@@ -90,7 +90,6 @@ footer {
 }
 
 .footer-sociala-medier-logo {
-    
     padding-right: 20px;
     font-size: 40px;
     height: 100%;
