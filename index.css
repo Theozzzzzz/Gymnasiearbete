@@ -51,13 +51,13 @@ main {
     align-items: center;
     margin: auto 7%;
     background-color: var(--color-secondary);
-    padding: 35px;
+    padding-bottom: 50px;
 }
 
 article {
     background-color: var(--color-secondary);
     height: fit-content;
-    padding: 40px;
+    padding: 50px;
 }
 
 article h1 {
@@ -147,7 +147,7 @@ aside {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px; 
+    margin-bottom: 20px; 
     padding: 10px;
     border-radius: 10px;
     /* background-color: var(--color-quaternary); */
