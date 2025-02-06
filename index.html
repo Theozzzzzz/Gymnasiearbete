@@ -17,45 +17,67 @@
     </div>
 
     <article>
-        <h1>Våra kurser</h1>
-        <h2>Scenframställning</h2>
-        <p>
-        Hur presenterar man ett cirkusnummer? Eleverna får lära sig att förmedla en berättelse. Vi arbetar med balans, andning och kroppsspråk.
-        </p>
-        <ul>
-            <li>Första året arbetar vi med den egna personen som redskap. Föreställning: Stranden</li>
-            <li>Andra och tredje året studerar vi djurkaraktärer och eleverna får lära sig fysisk gestaltning.
-            Till vår hjälp har vi masker och dräkter som förstärker uttrycket. Föreställning: Zoo</li>
-            <li>Fjärde året introducerar vi mänskliga karaktärer. Eleverna får bl.a.  studera rörelser hos mekaniska leksaker. Föreställning: Toys</li>
-            <li>Därefter arbetar vi gemensamt i gruppen fram idéer, karaktärer och föreställningar.</li>
-        </ul>
+    <div class="beginheading">CirkusNormals Utbildningsidé</div> <br>
+        <div class="tab">
+            <button id="colorRemove" class="tablinks startTab" onclick="openTab(event, 'Scenframställning')">Scenframställning</button>
+            <button class="tablinks" onclick="openTab(event, 'Akrobatik')">Akrobatik</button>
+            <button class="tablinks" onclick="openTab(event, 'Cirkustekniker')">Cirkustekniker</button>
+            <button class="tablinks" onclick="openTab(event, 'Föreställning')">Föreställning</button>
+          </div>
+          
+          <!-- Tab content -->
+          <div id="Scenframställning" class="tabcontent">
+            <div class="heading">
+                <h3>Hur presenterar man ett cirkusnummer?</h3>
+                <h4>Eleverna får lära sig att förmedla en berättelse. Vi arbetar med balans, andning och kroppsspråk.</h2>
+            </div>
+            <ul>
+                <li><span class="special">Första</span> året arbetar vi med den egna personen som redskap. Föreställning: Stranden</li>
+                <br>
+                <li><span class="special">Andra</span> och tredje året studerar vi djurkaraktärer och eleverna får lära sig fysisk gestaltning. Till vår hjälp har vi masker och dräkter som förstärker uttrycket. Föreställning: Zoo</li>
+                <br>
+                <li><span class="special">Fjärde</span> året introducerar vi mänskliga karaktärer. Eleverna får bl.a.  studera rörelser hos mekaniska leksaker. Föreställning: Toys</li>
+                <br>
+                <li><span class="special">Därefter</span> arbetar vi gemensamt i gruppen fram idéer, karaktärer och föreställningar.</li>
+            </ul>
+          </div>
+          
+          <div id="Akrobatik" class="tabcontent">
+            <div class="heading">
+                <h3>Akrobatik ingår i alla Cirkus Normals lektioner.</h3>
+            </div>
+            <ul>
+                <li><span class="special">Enskild akrobatik:</span> Från kullerbyttor till avancerade volter.</li>
+                <br>
+                <li><span class="special">Parakrobatik:</span> Eleverna får arbeta med en eller flera partners för att hitta en gemensam balans.</li>
+                <br>
+                <li><span class="special">Ensemble-akrobatik:</span> Hela gruppen tränas i att hitta gemensamma uttryck och rytm.</li>
+            </ul>
+          </div>
+          
+          <div id="Cirkustekniker" class="tabcontent">
+            <div class="heading">
+                <h3>Alla nya elever får pröva på de olika cirkusteknikerna.</h3>
+                <p>Därefter brukar eleverna välja vilka tekniker de vill utveckla. Ofta sammanfaller valet med individuell fallenhet. Våra cirkusledare har en grundkunskap i de olika teknikerna. Därutöver är varje lärare specialist i någon av disciplinerna.</p>
+            </div>
+            <ul>
+                <li><span class="special">Jonglering: </span> bollar, dukar, ringar, käglor</li>
+                <br>
+                <li><span class="special">Luft:</span>  tyg, trapets, airiel ring</li>
+                <br>
+                <li><span class="special">Balans:</span>  walkingglobe, lina, , rolla-bolla, styltor</li>
+                <br>
+                <li><span class="special">Övrigt:</span> rockring, poi, diablo, devil/flowerstick, enhjuling</li>
+            </ul>
+          </div>
 
-        <h2>Akrobatik</h2>
-        <p>Akrobatik ingår i alla Cirkus Normals lektioner.</p>
-
-        <ul>
-            <li> akrobatik: Från kullerbyttor till avancerade volter.</li>
-            <li>Parakrobatik: Eleverna får arbeta med en eller flera partners för att hitta en gemensam balans.</li>
-            <li>Ensemble-akrobatik: Hela gruppen tränas i att hitta gemensamma uttryck och rytm.</li>
-        </ul>
-
-        <h2>Cirkustekniker</h2>
-        <p>Alla nya elever får pröva på de olika cirkusteknikerna. Därefter brukar eleverna välja vilka tekniker de vill utveckla. Ofta sammanfaller valet med individuell fallenhet.</p>
-
-        <p>Våra cirkusledare har en grundkunskap i de olika teknikerna. Därutöver är varje lärare specialist i någon av disciplinerna.</p>
-
-        <ul>
-            <li>Jonglering: bollar, dukar, diablo, flowerstick, snurr-tallrik</li>
-            <li> trapets, tyg, ring, hammock</li>
-            <li>Balans: klot, lina, styltor</li>
-            <li>Övrigt: poi, rockring</li>
-        </ul>
-
-
-        <h2>Föreställning</h2>
-        <p>Varje läsår avslutas med en galaföreställning, där föräldrar, släkt och vänner bjuds in. Alla våra barn och ungdomar möjlighet att visa sina färdigheter för en entusiastisk publik.</p>
-
-        <p>När en föreställning växer fram får eleverna träna alla artistiska moment i produktionen av en professionell uppsättning. Valet av scen har varierat under åren. Vi har bl.a. gästspelat på Teater Replica på Kungsholmen, samt på Fria Teatern i Högdalen.</p>
+          <div id="Föreställning" class="tabcontent">
+            <div class="heading">
+                <h3>Varje läsår avslutas med en galaföreställning, där föräldrar, släkt och vänner bjuds in.</h3>
+                <h4>Alla våra barn och ungdomar får möjlighet, att visa sina färdigheter för en entusiastisk publik.</h4>
+                <p>När en föreställning växer fram får eleverna träna alla artistiska moment i professionell produktionen och uppsättning. Valet av scen har varierat under åren. Vi har bl.a. gästspelat på Teater Replica på Kungsholmen, Fria Teatern i Högdalen. De senaste åren har vi haft våra uppspel i Bragehallen på Skansen.</p>
+            </div>
+          </div>
     </article>
 
     <div class="parallax parallax2"></div>
@@ -123,4 +145,5 @@
 </body>
 <script src="loadinHeader.js"></script>
 <script src="loadinFooter.js"></script>
+<script src="tabfunc.js"></script>
 </html>

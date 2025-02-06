@@ -61,13 +61,103 @@ main {
 
 article {
     background-color: var(--color-secondary);
-    height: fit-content;
+    height: 100vh;
     padding: 40px;
+    border-radius: 20px;
 }
 
 article h1 {
     font-size: 250%;
 }
+
+
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* border: 3px solid #ccc; */
+    border-bottom: none;
+    /* background-color: var(--color-tertiary); */
+    width: 100%;
+    /* margin-left: 56vh; */
+    button:first-child {
+        border-left: 3px solid #ccc;
+    }
+     button:last-child {
+        border-right: 3px solid #ccc;
+    }
+    > .startTab{
+        background-color: #ccc;
+    }
+
+    > button {
+        border-top: 3px solid #ccc;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: var(--color-tertiary);
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.1s;
+    }
+  }
+
+  #Scenframställning{
+    display: block;
+  }
+
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+
+  .heading{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .beginheading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 3px solid #ccc;
+    border-top: 3px solid #ccc;
+    border-left:none;
+    border-right: none;
+    background-color: inherit;
+    > ul{
+        font-size: 20px;
+    }
+  }
+
+  li span.special{
+    font-weight: bold;
+  }
+
+  .tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  }
+  
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
 
 aside {
     margin-right: 40px;
@@ -207,6 +297,11 @@ aside {
     .parallax1, .parallax2 {
         min-height: 400px;
     }
+    .tab{
+        justify-content: flex-start;
+        font-size: 15px;
+        width: 30vh;
+    }
 
     article {
         padding: 20px;
@@ -237,7 +332,11 @@ aside {
     article h1 {
         font-size: 120%;
     }
-
+    .tab{
+        justify-content: flex-start;
+        font-size: 15px;
+        width: 30vh;
+    }
     #iframe_container {
         height: 130px;
     }
