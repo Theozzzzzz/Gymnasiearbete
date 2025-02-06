@@ -1,16 +1,9 @@
-/* * {
-    --color-primary: #FBF5DD;
-    --color-secondary: #A6CDC6;
-    --color-tertiary: #16404D;
-    --color-quaternary: #16404D;
-} */
 * {
     --color-primary: #635985;
     --color-secondary: #d5e9e2;
     --color-tertiary: #DAFFFB;
     --color-quaternary: #DAFFFB;
 }
-
 
 html {
     background-color: black;
@@ -20,11 +13,12 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     position: relative;
-    top: 45vh;
-    font-size: 40px;
-    height: 20vh;
-    width: 50vh;
+    top: 35vh;
+    font-size: 30px;
+    height: 24vh;
+    width: 70vh;
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(255, 255, 255, 0.416);
@@ -57,12 +51,13 @@ main {
     align-items: center;
     margin: auto 7%;
     background-color: var(--color-secondary);
+    padding-bottom: 50px;
 }
 
 article {
     background-color: var(--color-secondary);
-    height: 100vh;
-    padding: 40px;
+    height: fit-content;
+    padding: 50px;
     border-radius: 20px;
 }
 
@@ -242,10 +237,10 @@ aside {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px; 
+    margin-bottom: 20px; 
     padding: 10px;
     border-radius: 10px;
-    background-color: var(--color-quaternary);
+    /* background-color: var(--color-quaternary); */
     box-shadow: black 2px 2px 5px;
     > img {
         width: 100%;

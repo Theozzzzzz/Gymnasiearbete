@@ -41,10 +41,11 @@ footer {
     alaign-items: center;
     flex-wrap: wrap;
     padding: 0;
-    margin: 0;
+    margin-top: -30px;
     background-color: var(--color-tertiary);
     border-radius: 0 30px 0 0;
-    height: 30vh;
+    height: fit-content;
+    min-height: 30vh;
     bottom: 0;
 }
 
@@ -59,7 +60,7 @@ footer {
     align-items: center;
     margin-left: 40px;
     > img {
-    height: 40%;
+    height: 50%;
     }
 }
 
@@ -67,7 +68,7 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 100%;
+    height: 25vh;
     with: fit-content;
     > h1 {
         
@@ -89,7 +90,6 @@ footer {
 }
 
 .footer-sociala-medier-logo {
-    
     padding-right: 20px;
     font-size: 40px;
     height: 100%;
