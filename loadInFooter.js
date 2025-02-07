@@ -109,6 +109,7 @@ footer {
         margin-right: 10vh;
         > a {
             margin-left: 2vh;
+            color: black;
         }
         > p {
         font-size: 25px;
