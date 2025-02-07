@@ -265,6 +265,8 @@ aside {
 }
 
 
+
+
 /* Media Queries for responsiveness */
 @media (max-width: 1200px) {
     main {
@@ -324,6 +326,14 @@ aside {
     .events {
         width: 45%;
     }
+
+    header {
+        height: fit-content;
+        justify-content: space-evenly;
+    }
+    .navbar-button {
+        width: 50%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -350,5 +360,9 @@ aside {
 
     .events {
         width: 95%;
+    }
+
+    header {
+        flex-direction: column;
     }
 }

@@ -33,7 +33,8 @@ document.getElementsByTagName('header')[0].innerHTML = `
                 <div class="navbar-button colorheader">Om Oss</div>
             </a>
         </li> 
-    </ul> 
+    </ul>
+     
 </nav>`;
 
 
@@ -75,6 +76,7 @@ html {
     display: flex;
     right: 0;
     flex-direction: row;
+    flex-wrap: wrap;
     padding: 0;
     margin: 0;
     justify-content: flex-end;
@@ -154,9 +156,14 @@ html {
     display: block;
 }
   
-  .dropdown-content a:hover {background-color: var(--color-quaternary);}
+.dropdown-content a:hover {
+    background-color: var(--color-quaternary);
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropdown-content {display: block;}
-  
+
+
 `
 document.head.appendChild(style);
