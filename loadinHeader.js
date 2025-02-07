@@ -51,15 +51,15 @@ header {
     margin: 0;
     background-color: var(--color-quaternary);
     border-radius: 0 0 30px 0;
-    height: 60px;
+    height: fit-content;
     width: 100%;
     z-index: 4;
 }
 
 #header-image {
-    height: 100%;
+    height: 120%;
     padding: 0;
-    margin: 0;
+    margin-bottom: -15px;
 }
 
 body {

@@ -328,11 +328,12 @@ aside {
     }
 
     header {
-        height: fit-content;
         justify-content: space-evenly;
+        height: fit-content;
     }
     .navbar-button {
         width: 50%;
+        padding: auto;
     }
 }
 
@@ -364,5 +365,25 @@ aside {
 
     header {
         flex-direction: column;
+        justify-content: auto;
+        >nav {
+            flex-direction: column;
+            > ul {
+                flex-direction: column;
+                
+                justify-content: auto;
+                width: 100%;
+                
+                > li {
+                    width: 50%;
+                    margin: auto;
+                }
+            
+            }
+        }
+    }
+
+    .navbar-button {
+        width: 100%;
     }
 }
